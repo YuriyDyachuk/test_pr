@@ -26,3 +26,4 @@
 2025-04-11 14:47:47,665 INFO spawned: 'queue-worker' with pid 43
 2025-04-11 14:47:48,705 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-04-11 14:47:48,705 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:50:15,883 INFO reaped unknown pid 60 (exit status 0)
