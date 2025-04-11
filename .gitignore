@@ -22,3 +22,7 @@ yarn-error.log
 /.vscode
 /.zed
 /mysql_data
+/redis_data
+/.git
+supervisord.log
+supervisord.pid

@@ -12,7 +12,7 @@
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/YuriyDyachuk/pr_test#
+    git clone git@github.com:YuriyDyachuk/test_pr.git
     cd pr_test
     ```
 

@@ -50,3 +50,13 @@
 2025-04-11 14:56:46,647 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-04-11 14:57:11,673 INFO reaped unknown pid 37 (exit status 0)
 2025-04-11 14:57:37,711 INFO reaped unknown pid 40 (exit status 255)
+2025-04-11 15:00:25,075 WARN exited: queue-worker (exit status 1; not expected)
+2025-04-11 15:00:26,078 INFO spawned: 'queue-worker' with pid 50
+2025-04-11 15:00:26,261 WARN exited: queue-worker (exit status 1; not expected)
+2025-04-11 15:00:27,264 INFO spawned: 'queue-worker' with pid 54
+2025-04-11 15:00:27,447 WARN exited: queue-worker (exit status 1; not expected)
+2025-04-11 15:00:29,451 INFO spawned: 'queue-worker' with pid 58
+2025-04-11 15:00:29,647 WARN exited: queue-worker (exit status 1; not expected)
+2025-04-11 15:00:32,652 INFO spawned: 'queue-worker' with pid 62
+2025-04-11 15:00:32,835 WARN exited: queue-worker (exit status 1; not expected)
+2025-04-11 15:00:33,837 INFO gave up: queue-worker entered FATAL state, too many start retries too quickly
