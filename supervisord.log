@@ -27,3 +27,24 @@
 2025-04-11 14:47:48,705 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-04-11 14:47:48,705 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-04-11 14:50:15,883 INFO reaped unknown pid 60 (exit status 0)
+2025-04-11 14:51:25,979 INFO reaped unknown pid 71 (exit status 0)
+2025-04-11 14:54:59,229 WARN received SIGQUIT indicating exit request
+2025-04-11 14:54:59,229 INFO waiting for php-fpm, queue-worker to die
+2025-04-11 14:54:59,233 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-04-11 14:54:59,237 INFO stopped: php-fpm (exit status 0)
+2025-04-11 14:55:15,175 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 14:55:15,177 INFO supervisord started with pid 1
+2025-04-11 14:55:16,180 INFO spawned: 'php-fpm' with pid 22
+2025-04-11 14:55:16,183 INFO spawned: 'queue-worker' with pid 23
+2025-04-11 14:55:17,205 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:55:17,205 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:56:43,295 WARN received SIGQUIT indicating exit request
+2025-04-11 14:56:43,295 INFO waiting for php-fpm, queue-worker to die
+2025-04-11 14:56:43,298 WARN stopped: queue-worker (terminated by SIGTERM)
+2025-04-11 14:56:43,302 INFO stopped: php-fpm (exit status 0)
+2025-04-11 14:56:44,607 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-11 14:56:44,609 INFO supervisord started with pid 1
+2025-04-11 14:56:45,612 INFO spawned: 'php-fpm' with pid 20
+2025-04-11 14:56:45,614 INFO spawned: 'queue-worker' with pid 21
+2025-04-11 14:56:46,646 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-11 14:56:46,647 INFO success: queue-worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

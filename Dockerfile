@@ -4,11 +4,7 @@ RUN apk add --no-cache \
     git curl zip unzip bash \
     libzip-dev libpng-dev libxml2-dev oniguruma-dev \
     mysql-client gcc g++ make autoconf libc-dev libffi-dev \
-    && docker-php-ext-install pdo pdo_mysql zip
-
-RUN apk add --no-cache git curl zip unzip bash \
-    libzip-dev libpng-dev libxml2-dev oniguruma-dev \
-    mysql-client gcc g++ make autoconf libc-dev libffi-dev \
+    openssh \
     && docker-php-ext-install pdo pdo_mysql zip
 
 COPY ./docker/gitconfig.sh /gitconfig.sh
